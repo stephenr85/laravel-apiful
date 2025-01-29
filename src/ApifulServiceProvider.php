@@ -47,8 +47,6 @@ class ApifulServiceProvider extends ServiceProvider
             return apiful($data);
         });
 
-        Artisan::call("vendor:publish --tag='apiful-config'");
-
     }
 
     protected function registerPublishing()
